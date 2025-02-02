@@ -13,3 +13,45 @@
 
   </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Photos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Virtual Colors Photo Gallery</h1>
+    <p>Explore a collection of stunning visuals.</p>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/250" alt="Sample Image 1">
+        <img src="https://via.placeholder.com/250" alt="Sample Image 2">
+        <img src="https://via.placeholder.com/250" alt="Sample Image 3">
+        <img src="https://via.placeholder.com/250" alt="Sample Image 4">
+    </div>
+</body>
+</html>
