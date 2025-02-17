@@ -1,2 +1,39 @@
 #bf
 {font-size: 60px;}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+.gallery img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+    body {
+background-color: rgb(38, 38, 210);
+color: rgb(108, 192, 40);
+}
+h1 {
+color: blue;
+}}
+body {
+background-color: rgb(230, 215, 54);
+color: rgb(255, 255, 255);
+}
+h1 {
+color: rgb(0, 174, 255);
+} 
+

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!-- <!DOCTYPE html> 
 <htmlbody 
 
 lang="en">
@@ -22,41 +22,9 @@ lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Photos</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-        }
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 15px;
-            padding: 20px;
-        }
-        .gallery img {
-            width: 250px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
-        }
-        .gallery img:hover {
-            transform: scale(1.1);
-            body {
-  background-color: rgb(38, 38, 210);
-  color: rgb(108, 192, 40);
-}
-h1 {
-  color: blue;
-}}
-body {
-  background-color: rgb(230, 215, 54);
-  color: rgb(255, 255, 255);
-}
-h1 {
-  color: rgb(0, 174, 255);
-}
+  </head> 
+  <body>
+        
 \ </style>
 </head>
 <body>
@@ -95,6 +63,91 @@ h1 {
         </ul>
     </nav>
 
-   
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interactive Button</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                margin-top: 50px;
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
 
-      
+        <h1>Click the Button!</h1>
+        <p id="message">This text will change when you click the button.</p>
+        <button id="changeTextButton">Click Me</button>
+    
+        <script>
+            document.getElementById("changeTextButton").addEventListener("click", function() {
+                document.getElementById("message").innerHTML = "You clicked the button!";
+            });
+        </script>
+
+    </html>
+
+
+     <!DOCTYPE html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cafe Majo</h1>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <p>Support third spaces!</p>
+    <div id="bf">Beverages and Food: Americano, banana bread, pudding, blueberry muffin</div>
+
+    <div class="gallery">
+        <img src="https://via.placeholder.com/250" alt="Sample Image 1">
+        <img src="https://via.placeholder.com/250" alt="Sample Image 2">
+        <img src="https://via.placeholder.com/250" alt="Sample Image 3">
+        <img src="https://via.placeholder.com/250" alt="Sample Image 4">
+    </div>
+
+    <h1>Click the Button!</h1>
+    <p id="message">This text will change when you click the button.</p>
+    <button id="changeTextButton">Click Me</button>
+    
+    <script>
+        document.getElementById("changeTextButton").addEventListener("click", function() {
+            document.getElementById("message").innerHTML = "You clicked the button!";
+        });
+    </script>
+</body>
+</html>
